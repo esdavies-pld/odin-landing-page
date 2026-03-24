@@ -122,9 +122,9 @@ button {
 }
 
 .box {
-    outline: solid #3882F6;
-    width: 200px;
-    height: 200px;
+    outline: solid thick #3882F6;
+    width: 175px;
+    height: 175px;
     border-radius: 15px;
 }
 
@@ -133,3 +133,4 @@ button {
     font-size: 18px;
     color: gray;
 }
+
