@@ -89,3 +89,47 @@ button {
     text-align: center;
     padding: 10px;
 }
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 25px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.placeholders {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.box-and-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 200px;
+}
+
+.box {
+    outline: solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
