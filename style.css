@@ -134,3 +134,23 @@ button {
     color: gray;
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quotation {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.attribution {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
