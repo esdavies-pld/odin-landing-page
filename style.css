@@ -154,3 +154,37 @@ button {
     font-weight: bold;
 }
 
+.cta {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px 100px;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 25px 50px;
+    border-radius: 15px;
+
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 75px;
+    color: white;
+}
+
+.top-cta-text {
+    font-weight: bold;
+}
+
+#call-to-action {
+    outline: solid white;
+}
